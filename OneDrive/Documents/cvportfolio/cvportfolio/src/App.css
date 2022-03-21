@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+  --primary-black : rgb(78, 6, 6);
+  --primary-blue : rgb(145, 160, 245);
+  --primary-dark : rgba(255, 255, 255, 0);
+}
+
+body {
+  font-family: "Bebas Neue" sans-serif;
+}
+
+/**************************************************************************************************/
+.logo {
+  width: 12.5rem;
+}
+
+/*---------- Menu bar link-----------*/
+nav a.nav-link {
+  font-weight: 600;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color : var(--primary-black) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+navbar-brand {
+  max-width: 13.5rem;
+  padding : 0 !important;
+  height : 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
+
+.navbar-nav > li > a.hover {
+  border-top: 0.1875rem solid var(--primary-blue);
+}
